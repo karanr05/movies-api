@@ -32,7 +32,8 @@ This project provides a simple API for managing movie data, including CRUD (Crea
    node server.js
    ```
 
-   The server will run on `http://localhost:3000` by default.
+   The server will run on `http://localhost:3000` by default with message ("Hello User").
+   
 
 ## API Endpoints
 
