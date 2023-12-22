@@ -17,6 +17,10 @@ const database = mongoose.connection;
 database.on('error',(err) => console.log(err))
 database.on('connected',() => console.log('Database connected ....'));
 
+app.get('/' ,(req,res) => {
+    res.json("Hello User");
+}
+
 app.listen(3000, () =>{
     console.log("Server started in port: 3000");
 })
